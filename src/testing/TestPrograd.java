@@ -1,17 +1,17 @@
 package testing;
-/* uncomment the below lines to test your code
+// uncomment the below lines to test your code
 import org.junit.Test;
 
-import model.Prograd;
+import model.ProGrad;
 
 import static org.junit.Assert.*;
 
 public class TestPrograd {
-	Prograd pro = new Prograd ("John","065","4","Likely","No comments");
+	ProGrad pro = new ProGrad ("John","065","4","Likely","No comments");
 	
 	@Test
 	public void testSetMethods() {
-		Prograd pro = new Prograd ("John","065","4","Likely","No comments");
+		ProGrad pro = new ProGrad ("John","065","4","Likely","No comments");
 		String name = "John";
 		String id = "065";
 		String rate = "4";
@@ -41,4 +41,4 @@ public class TestPrograd {
 		}
 	}
 }
-*/
+
